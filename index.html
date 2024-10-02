@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Courses GeeksforGeeks | Interactive LIVE and Self-Paced Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon(geeksforgeeks).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="navbar">
+                <nav>
+                    <ul class="first">
+                        <li>Courses<svg class="downArrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></li>
+                        <li>Tutorial<svg class="downArrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></li>
+                        <li>Jobs<svg class="downArrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></li>
+                        <li>Practice<svg class="downArrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></li>
+                        <li>Contests<svg class="downArrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z">
+                                </path>
+                            </svg></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <div><img id="geeksforgeeks-logo" src="https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+                            alt="GeeksforGeeks"></div>
+                </nav>
+                <nav>
+                    <ul class="second">
+                        <li><svg id="search-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                                </path>
+                            </svg></li>
+                        <li><svg id="contrast-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 21.9967C6.47715 21.9967 2 17.5196 2 11.9967C2 6.47386 6.47715 1.9967 12 1.9967C17.5228 1.9967 22 6.47386 22 11.9967C22 17.5196 17.5228 21.9967 12 21.9967ZM12 19.9967C16.4183 19.9967 20 16.415 20 11.9967C20 7.57843 16.4183 3.9967 12 3.9967C7.58172 3.9967 4 7.57843 4 11.9967C4 16.415 7.58172 19.9967 12 19.9967ZM12 17.9967V5.9967C15.3137 5.9967 18 8.683 18 11.9967C18 15.3104 15.3137 17.9967 12 17.9967Z">
+                                </path>
+                            </svg></li>
+                        <li><svg id="bell-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M22 20H2V18H3V11.0314C3 6.04348 7.02944 2 12 2C16.9706 2 21 6.04348 21 11.0314V18H22V20ZM5 18H19V11.0314C19 7.14806 15.866 4 12 4C8.13401 4 5 7.14806 5 11.0314V18ZM9.5 21H14.5C14.5 22.3807 13.3807 23.5 12 23.5C10.6193 23.5 9.5 22.3807 9.5 21Z">
+                                </path>
+                            </svg></li>
+                        <li><svg id="translate-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M5 15V17C5 18.0544 5.81588 18.9182 6.85074 18.9945L7 19H10V21H7C4.79086 21 3 19.2091 3 17V15H5ZM18 10L22.4 21H20.245L19.044 18H14.954L13.755 21H11.601L16 10H18ZM17 12.8852L15.753 16H18.245L17 12.8852ZM8 2V4H12V11H8V14H6V11H2V4H6V2H8ZM17 3C19.2091 3 21 4.79086 21 7V9H19V7C19 5.89543 18.1046 5 17 5H14V3H17ZM6 6H4V9H6V6ZM10 6H8V9H10V6Z">
+                                </path>
+                            </svg></li>
+                        <li id="sign-in">Sign In</li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </header>
+    <header>
+        <div class="navbar2">
+
+            <ul id="navbar2">
+                <li><svg id="left-arrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z">
+                        </path>
+                    </svg></li>
+                <li>Trending Now</li>
+                <li>DSA</li>
+                <li>Web Tech</li>
+                <li>Foundational Cources</li>
+                <li>Data Science</li>
+                <li>Practice Problem</li>
+                <li>Python</li>
+                <li>Machine Learling</li>
+                <li>JavaScript</li>
+                <li>System Design</li>
+                <li>Django</li>
+                <li>DevOps Tutorial</li>
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>CP Live</li>
+                <li><svg id="right-arrow-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z">
+                        </path>
+                    </svg></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+
+
+            <div class="heading">
+                <main>
+                    <h2>GeeksforGeeks Courses</h2>
+                    <h4>Interactive LIVE & Self-Paced Courses</h4>
+                </main>
+                <main>
+                    <span><input id="search-bar" type="text" name="" id=""
+                            placeholder="What do you want to learn today?"><svg id="search-logo2"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                            </path>
+                        </svg></span>
+                </main>
+
+            </div>
+
+
+            <div class="box">
+
+                <div class="boxItem-1">
+                    <div class="boxes">
+                        <img id="big-saving"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/Big%20Savings%20Sale%20Banner%20-%20Left_1727269002.png"
+                            alt="Big Savings Sale">
+                    </div>
+                    <div class="boxes">
+                        <img id="get-extra"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/Big%20Savings%20Sale%20Banner%20-%20Right_1727269067.png"
+                            alt="Get extra 35% off">
+                    </div>
+                </div>
+
+                <p id="popular">Popular Now</p>
+                <div class="boxItem-2">
+                    <div class="boxes2">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/504/Mobile/Other/Course_DSA_to_Dev_1720846081.webp"
+                            alt="DSA Development">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">382k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.5</p>
+                        <p class="text-3">DSA to Development: A Complete Guide</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">2 seats left</p>
+
+                        <p class="text-6">
+                        <p class="text-7">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes2">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/227/Mobile/Other/Course_Backend_1720846992.webp"
+                            alt="Backend">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">237k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.8</p>
+                        <p class="text-3">JAVA Backend Development - Live</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Intermediate to Advance</p>
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">8 seats left</p>
+                        <p class="text-6-2">
+                        <p class="text-7-2">Explore</p>
+                    </div>
+                    <div class="boxes2">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/405/Mobile/Other/Course_ML_&_DS_1720846555.webp"
+                            alt="ML & DS">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">315k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.8</p>
+                        <p class="text-3 text3">Complete Machine Learning & Data Science Program</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">9 seats left</p>
+                        <p class="text-6">
+                        <p class="text-7">Explore</p>
+                    </div>
+                    <div class="boxes2">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/731/Web/Content/da_gate_1720781930.webp"
+                            alt="GATE">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">25k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.6</p>
+                        <p class="text-3">GATE Data Science and Artificial intelligence 2025</p>
+                        <p class="text-6-4">
+                        <p class="text-7-4">Explore</p>
+
+                    </div>
+                </div>
+
+                <p id="course-categories">Course Categories</p>
+                <div class="boxItem-3">
+
+                    <div class="boxes3">
+                        <p><img id="trending-technologies-logo"
+                                src="	https://media.geeksforgeeks.org/img-practice/Group7131-1641553665.svg"
+                                alt="trending-technologies-logo">
+                        <p class="text-8">Trending Technologies</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="dsa-p-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/Group7132-1641554264.svg"
+                                alt="dsa-p-logo">
+                        <p class="text-9">DSA / Placements</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="development-testing-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/PlacementTestSeries-1641884279.svg"
+                                alt="development-testing-logo">
+                        <p class="text-10">Development Testing</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="machine-learning-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/Group7128-1641554202.svg"
+                                alt="machine-learning-logo">
+                        <p class="text-11">Machine Learning / Data Science</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="programming-language-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/ProgrammingLanguages-1641884323.svg"
+                                alt="programming-language-logo">
+                        <p class="text-12">Programming Languages</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="cloud-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/Group7134-1641554232.svg"
+                                alt="cloud-logo">
+                        <p class="text-13">Cloud / DevOps</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="gate-logo" src="https://media.geeksforgeeks.org/img-practice/gate-1641884189.svg"
+                                alt="gate-logo">
+                        <p class="text-14">GATE</p>
+                        </p>
+                    </div>
+                    <div class="boxes3">
+                        <p><img id="all-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/Miscellaneous-1641884151.svg"
+                                alt="all-logo">
+                        <p class="text-15">All</p>
+                        </p>
+                    </div>
+                </div>
+
+                <p id="live-courses">Live Courses</p>
+                <div class="boxItem-2">
+                    <div class="boxes4">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/458/Mobile/Other/Course_Tech_Int_1720846791.webp"
+                            alt="Tech Interview">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">305k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.9</p>
+                        <p class="text-3">Tech Interview 101 - From DSA to System Design for Working Professionals</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">4 seats left</p>
+
+                        <p class="text-6">
+                        <p class="text-7">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes4">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/517/Mobile/Other/Course_Software_testing_1720847295.webp"
+                            alt="Software">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">35k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.5</p>
+                        <p class="text-3">Manual to Automation Testing: A QA Engineer's Guide</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Intermediate to Advance</p>
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">6 seats left</p>
+                        <p class="text-6-2">
+                        <p class="text-7-2">Explore</p>
+                    </div>
+                    <div class="boxes4">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/241/Web/Content/FSRNL_1705410152.webp"
+                            alt="FSRNL">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">283k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3 text3">Full Stack Development With React & Node JS - Live</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">5 seats left</p>
+                        <p class="text-6-3">
+                        <p class="text-7-2">Explore</p>
+                    </div>
+                    <div class="boxes4">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/483/Mobile/Other/Course_Devops_1720845934.webp"
+                            alt="DEVOPS">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">82k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3">DevOps Engineering - Planning to Production</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+                        <p class="text-5"><img id="two-seats-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/StarRating-1669270221.svg"
+                                alt="Seats left">8 seats left</p>
+                        <p class="text-6-4-4">
+                        <p class="text-7-4-4">Explore</p>
+
+                    </div>
+                </div>
+
+                <p id="live-courses">Self-Paced Courses</p>
+                <div class="boxItem-2">
+                    <div class="boxes5">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/244/Web/Content/CIP_1720782273.webp"
+                            alt="Interview Preparetion">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">933k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.9</p>
+                        <p class="text-3">Complete Interview Preparetion</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-3">
+                        <p class="text-7-2">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes5">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/198/Web/Content/dsa_1723009292.webp"
+                            alt="Data Structure and Algorithms">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">1260k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3">Data Structures and Algorithms - Self Paced [Online - Course]</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Intermediate to Advance</p>
+
+                        <p class="text-6-55">
+                        <p class="text-7">Explore</p>
+                    </div>
+                    <div class="boxes5">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/730/Web/Content/dj_1723005480.webp"
+                            alt="Django">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">8k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.8</p>
+                        <p class="text-3 text3">Complete Django Web Development Course - Basics to Advance</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Intermediate</p>
+
+                        <p class="text-6">
+                        <p class="text-7">Explore</p>
+                    </div>
+                    <div class="boxes5">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/731/Web/Content/da_gate_1720781930.webp"
+                            alt="GATE">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">25k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.6</p>
+                        <p class="text-3">GATE Data Science and Artificial intelligence 2025</p>
+                        <p class="text-6-5">
+                        <p class="text-7-4-5">Explore</p>
+
+                    </div>
+                </div>
+
+                <p id="live-courses">Newly Launched</p>
+                <div class="boxItem-2">
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/662/Web/Content/React_1720781624.webp"
+                            alt="React JS">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">8k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.8</p>
+                        <p class="text-3">React JS Course Online - React JS Certification Courses</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-31">
+                        <p class="text-7-4-51">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/730/Web/Content/dj_1723005480.webp"
+                            alt="Django">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">8k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.8</p>
+                        <p class="text-3-1">Complete Django Web Development Course - Basics to Advance</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Intermediate</p>
+
+                        <p class="text-6-32">
+                        <p class="text-7-4-52">Explore</p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/647/Web/Content/genai_1722948634.webp"
+                            alt="Generative AI">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">21k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3 text3">Mastering Generative AI and ChatGPT</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-33">
+                        <p class="text-7-4-53">Explore</p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/570/Web/Content/solution_1722947839.webp"
+                            alt="Cloud Practitioner">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">19k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3">AWS Certified Cloud Practitioner Exam [Certificaton Course]
+                        </p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+                        <p class="text-6-31">
+                        <p class="text-7-4-51">Explore</p>
+
+                    </div>
+                </div>
+
+                <p id="live-courses">Build Your Foundations</p>
+                <div class="boxItem-2">
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/270/Web/Content/CourseJavaProgrammin_1716371938.webp"
+                            alt="Java">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">231k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3">Java Programming Online Cource [Complete Beginner to Advanced]</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-31">
+                        <p class="text-7-4-51">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/221/Web/Content/cpp_1723009538.webp"
+                            alt="C++">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">197k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3-1">C++ Programming Cource Online - Complete Beginner to Advanced</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-32">
+                        <p class="text-7-4-52">Explore</p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/345/Web/Content/javasc_1724254497.webp"
+                            alt="javaScript">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">61k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3 text3">javaScript Full Course Online | Learn javaScript With Certification</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-43">
+                        <p class="text-7-4-52">Explore</p>
+                    </div>
+                    <div class="boxes6">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/287/Web/Content/c_1722949071.webp"
+                            alt="Master C">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">139k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.6</p>
+                        <p class="text-3">C Programming Cource Online - Learn C With Data Structure</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+                        <p class="text-6-31">
+                        <p class="text-7-4-51">Explore</p>
+
+                    </div>
+                </div>
+
+                <div class="boxItem-1">
+                    <div class="boxes boxess">
+                        <img id="big-saving"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/deskwebp_1718617124.webp"
+                            alt="Big Savings Sale">
+                    </div>
+                    <div class="boxes boxess">
+                        <img id="get-extra"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/desk2webp_1718625050.webp"
+                            alt="Get extra 35% off">
+                    </div>
+                </div>
+
+                <p id="free-courses">Free Courses</p>
+                <div class="boxItem-2">
+                    <div class="boxes7">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/628/Web/Content/mongo_1720781490.webp"
+                            alt="Mongo-DB">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">53k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.9</p>
+                        <p class="text-3">MongoDB Developer's Toolkit: CRUD Mastery with Node.js, java, Python, C#</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginner to Advance</p>
+
+                        <p class="text-6-33-1">
+                        <p class="free-course ff">Free Course</p>
+                        <p class="text-7-4-51-1">Explore</p>
+                        </p>
+                    </div>
+                    <div class="boxes7">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/528/Web/Content/IOS_1720781341.webp"
+                            alt="IOS Development">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">32k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.7</p>
+                        <p class="text-3-1">iOS Development for Beginners:<br>Master Swift & App Building for free</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginners</p>
+
+                        <p class="text-6-33-2">
+                        <p class="free-course">Free Course</p>
+                        <p class="text-7-4-52">Explore</p>
+                    </div>
+                    <div class="boxes7">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/404/Web/Content/bc-ds-web_1705400602.webp"
+                            alt="Bootcamp">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">76k+ interested Geeks</p>
+                        <br>
+                        <p class="text-3 text3">Data Science Bootcamp - From Analysing Data To Creating ML Models</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginners</p>
+
+                        <p class="text-6-33-3">
+                        <p class="free-course ff">Free Course</p>
+                        <p class="text-7-4-51-3">Explore</p>
+                    </div>
+                    <div class="boxes7">
+                        <img class="boxes2-images"
+                            src="https://media.geeksforgeeks.org/img-practice/prod/courses/383/Web/Content/fullstack_1720781548.webp"
+                            alt="Full Stack">
+                        <p class="text-1"><img id="trending-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Content/visit_count_2_1687863297.png"
+                                alt="">126k+ interested Geeks</p>
+                        <p class="text-2"><svg id="star-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12.0006 18.26L4.94715 22.2082L6.52248 14.2799L0.587891 8.7918L8.61493 7.84006L12.0006 0.5L15.3862 7.84006L23.4132 8.7918L17.4787 14.2799L19.054 22.2082L12.0006 18.26Z">
+                                </path>
+                            </svg>4.6</p>
+                        <p class="text-3">Full Stack Developer Bootcamp - Master Frontent to Backend</p>
+                        <p class="text-4"><img id="level-logo"
+                                src="https://media.geeksforgeeks.org/img-practice/prod/courses/3/Web/Content/course_level_1687864113.png"
+                                alt="Level">Beginners</p>
+                        <p class="text-6-33-4">
+                        <p class="free-course">Free Course</p>
+                        <p class="text-7-4-51">Explore</p>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="seek-counseling"><svg id="seek" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="currentColor">
+                <path
+                    d="M2.5 7C2.5 9.20914 4.29086 11 6.5 11C8.70914 11 10.5 9.20914 10.5 7C10.5 4.79086 8.70914 3 6.5 3C4.29086 3 2.5 4.79086 2.5 7ZM2 21V16.5C2 14.0147 4.01472 12 6.5 12C8.98528 12 11 14.0147 11 16.5V21H2ZM17.5 11C15.2909 11 13.5 9.20914 13.5 7C13.5 4.79086 15.2909 3 17.5 3C19.7091 3 21.5 4.79086 21.5 7C21.5 9.20914 19.7091 11 17.5 11ZM13 21V16.5C13 14.0147 15.0147 12 17.5 12C19.9853 12 22 14.0147 22 16.5V21H13Z">
+                </path>
+            </svg>Seek Counceling</div>
+    </main>
+
+
+    <footer>
+        <img id="footer-gfg-img" src="https://media.geeksforgeeks.org/auth-dashboard-uploads/gfgFooterLogoDark.png"
+            alt="">
+
+        <div style="display: flex; align-items: flex-start; margin-left: 45px; margin-top: 15px;">
+            <svg id="location-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12 20.8995L16.9497 15.9497C19.6834 13.2161 19.6834 8.78392 16.9497 6.05025C14.2161 3.31658 9.78392 3.31658 7.05025 6.05025C4.31658 8.78392 4.31658 13.2161 7.05025 15.9497L12 20.8995ZM12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364L12 23.7279ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13ZM12 15C9.79086 15 8 13.2091 8 11C8 8.79086 9.79086 7 12 7C14.2091 7 16 8.79086 16 11C16 13.2091 14.2091 15 12 15Z">
+                </path>
+            </svg>
+            <p id="location">Corporate & Communications Address:- A-143, 9th Floor, Sovereign Corporate Tower, Sector-
+                136, Noida, Uttar Pradesh (201305) | Registered Address:- K 061, Tower K, Gulshan Vivante Apartment,
+                Sector 137, Noida, Gautam Buddh Nagar, Uttar Pradesh, 201305</p>
+        </div>
+        <div class="website-logo">
+            <svg id="facebook-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M13.001 19.9381C16.9473 19.446 20.001 16.0796 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 16.0796 7.05467 19.446 11.001 19.9381V14H9.00098V12H11.001V10.3458C11.001 9.00855 11.1402 8.52362 11.4017 8.03473C11.6631 7.54584 12.0468 7.16216 12.5357 6.9007C12.9184 6.69604 13.3931 6.57252 14.2227 6.51954C14.5519 6.49851 14.9781 6.52533 15.501 6.6V8.5H15.001C14.0837 8.5 13.7052 8.54332 13.4789 8.66433C13.3386 8.73939 13.2404 8.83758 13.1653 8.97793C13.0443 9.20418 13.001 9.42853 13.001 10.3458V12H15.501L15.001 14H13.001V19.9381ZM12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22Z">
+                </path>
+            </svg>
+            <svg id="insta-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+                </path>
+            </svg>
+            <svg id="linkedIn-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z">
+                </path>
+            </svg>
+            <svg id="twitter-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M18.2048 2.25H21.5128L14.2858 10.51L22.7878 21.75H16.1308L10.9168 14.933L4.95084 21.75H1.64084L9.37084 12.915L1.21484 2.25H8.04084L12.7538 8.481L18.2048 2.25ZM17.0438 19.77H18.8768L7.04484 4.126H5.07784L17.0438 19.77Z">
+                </path>
+            </svg>
+            <svg id="youtube-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M12.2439 4C12.778 4.00294 14.1143 4.01586 15.5341 4.07273L16.0375 4.09468C17.467 4.16236 18.8953 4.27798 19.6037 4.4755C20.5486 4.74095 21.2913 5.5155 21.5423 6.49732C21.942 8.05641 21.992 11.0994 21.9982 11.8358L21.9991 11.9884L21.9991 11.9991C21.9991 11.9991 21.9991 12.0028 21.9991 12.0099L21.9982 12.1625C21.992 12.8989 21.942 15.9419 21.5423 17.501C21.2878 18.4864 20.5451 19.261 19.6037 19.5228C18.8953 19.7203 17.467 19.8359 16.0375 19.9036L15.5341 19.9255C14.1143 19.9824 12.778 19.9953 12.2439 19.9983L12.0095 19.9991L11.9991 19.9991C11.9991 19.9991 11.9956 19.9991 11.9887 19.9991L11.7545 19.9983C10.6241 19.9921 5.89772 19.941 4.39451 19.5228C3.4496 19.2573 2.70692 18.4828 2.45587 17.501C2.0562 15.9419 2.00624 12.8989 2 12.1625V11.8358C2.00624 11.0994 2.0562 8.05641 2.45587 6.49732C2.7104 5.51186 3.45308 4.73732 4.39451 4.4755C5.89772 4.05723 10.6241 4.00622 11.7545 4H12.2439ZM9.99911 8.49914V15.4991L15.9991 11.9991L9.99911 8.49914Z">
+                </path>
+            </svg>
+            <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/googleplay-%281%29.png" alt="">
+            <img src="https://media.geeksforgeeks.org/auth-dashboard-uploads/appstore-%281%29.png" alt="">
+        </div>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li>Company</li>
+                    <li>About Us
+                    <li>Legal</li>
+                    <li>Careers</li>
+                    <li>In Media</li>
+                    <li>Contact Us</li>
+                    <li>Advertise with us</li>
+                    <li>GFG Corporate Solution</li>
+                    <li>Placement Training</li>
+                    <li>Program</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Explore</li>
+                    <li class="width">Job-A-Thon Hiring Challenge</li>
+                    <li>Hack-A-Thon</li>
+                    <li> GfG Weekly Contest</li>
+                    <li>Offline Classes (Delhi/NCR)</li>
+                    <li>DSA in JAVA/C++</li>
+                    <li>Master System Design</li>
+                    <li> Master CP</li>
+                    <li> GeeksforGeeks Videos</li>
+                    <li>Geeks Community</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Languages</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>PHP</li>
+                    <li>GoLang</li>
+                    <li>SQL</li>
+                    <li>R Language</li>
+                    <li>Android Tutorial</li>
+
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+
+                    <li>DSA</li>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>DSA for Beginners</li>
+                    <li>Basic DSA Problems</li>
+                    <li>DSA Roadmap</li>
+                    <li>DSA Interview Questions</li>
+                    <li>Competitive Programmin</li>
+
+                </ul>
+            </nav>
+
+            <nav>
+                <ul>
+                    <li>Data Science & ML</li>
+                    <li>Data Science With Python</li>
+                    <li>Data Science For Beginner</li>
+                    <li>Machine Learning</li>
+                    <li>ML Maths</li>
+                    <li>Data Visualisation</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>NLP</li>
+                    <li>Deep Learning</li>
+                </ul>
+            </nav>
+
+            <nav>
+                <ul>
+                    <li>Web Technologies
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>ReactJS</li>
+                    <li>NextJS</li>
+                    <li>NodeJs</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Python Tutorial</li>
+                    <li class="width">Python Programming Examples</li>
+                    <li>Django Tutorial</li>
+                    <li>Python Projects</li>
+                    <li>Python Tkinter</li>
+                    <li>Web Scraping</li>
+                    <li>OpenCV Tutorial</li>
+                    <li>Python Interview Question</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Computer Science</li>
+                    <li>GATE CS Notes</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Network</li>
+                    <li class="width">Database Management System</li>
+                    <li>Software Engineering</li>
+                    <li>Digital Logic Design</li>
+                    <li>Engineering Maths</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>DevOps</li>
+                    <li>Git</li>
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Azure</li>
+                    <li>GCP</li>
+                    <li>DevOps Roadmap</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>System Design</li>
+                    <li>High Level Design</li>
+                    <li>Low Level Design</li>
+                    <li>UML Diagrams</li>
+                    <li>Interview Guide</li>
+                    <li>Design Patterns</li>
+                    <li>OOAD</li>
+                    <li>System Design Bootcamp</li>
+                    <li>Interview Questions</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>School Subjects</li>
+                    <li>Mathematics</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>Biology</li>
+                    <li>Social Science</li>
+                    <li>English Grammar</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Commerce</li>
+                    <li>Accountancy</li>
+                    <li>Business Studies
+                    <li>Economics</li>
+                    <li>Management</li>
+                    <li>HR Management</li>
+                    <li>Finance</li>
+                    <li>Income Tax</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Databases</li>
+                    <li>SQL</li>
+                    <li>MYSQL</li>
+                    <li>PostgreSQL</li>
+                    <li>PL/SQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Preparation Corner</li>
+                    <li class="width2">Company-Wise Recruitment Process</li>
+                    <li>Resume Templates</li>
+                    <li>Aptitude Preparation</li>
+                    <li>Puzzles</li>
+                    <li class="width2">Company-Wise Preparation</li>
+                    <li>Companies</li>
+                    <li>Colleges</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Competitive Exams</li>
+                    <li>JEE Advanced</li>
+                    <li>UGC NET</li>
+                    <li>UPSC</li>
+                    <li>SSC CGL</li>
+                    <li>SBI PO</li>
+                    <li>SBI Clerk</li>
+                    <li>IBPS PO</li>
+                    <li>IBPS Clerk</li>
+
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>More Tutorials</li>
+                    <li>Software Development</li>
+                    <li>Software Testing</li>
+                    <li>Product Management</li>
+                    <li>Project Management</li>
+                    <li>Linux</li>
+                    <li>Excel</li>
+                    <li>All Cheat Sheets</li>
+                    <li>Recent Articles</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Free Online Tools</li>
+                    <li>Typing Test</li>
+                    <li>Image Editor</li>
+                    <li>Code Formatters</li>
+                    <li>Code Converters</li>
+                    <li>Currency Converter</li>
+                    <li class="width2">Random Number Generator</li>
+                    <li class="width2">Random Password Generator</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Write & Earn</li>
+                    <li>Write an Article</li>
+                    <li>Improve an Article</li>
+                    <li>Pick Topics to Write</li>
+                    <li>Share your Experiences</li>
+                    <li>Internships</li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </footer>
+
+    <p id="website"><a target="_blank" href="https://www.geeksforgeeks.org/">@GeeksforGeeks, Sanchhaya Education Private
+            Limited, All rights reserved</a></p>
+
+</body>
+
+</html>
